@@ -1,4 +1,4 @@
-# pitchfx_sql
+# nba_playertracking_sql
 Create your own database of NBA data in its rawest form using Python and SQL
 
 *NOTE 2018.02.01*: data no longer available at http://stats.nba.com/stats/locations_getmoments/?eventid=1&gameid=0020800001
