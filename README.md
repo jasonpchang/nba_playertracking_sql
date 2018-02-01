@@ -8,4 +8,8 @@ The NBA's player tracking data provides a wealth of information because it conta
 
 To obtain these data, you must scrape the data off the web. I've done that for you by writing a Python script that scrapes the data and organizes it in an SQL database. All you need to do is run a single line of code,  providing the beginning and end dates of games you are interested in. For instance, if you want to grab data from all games between March 1, 2015, and May 1, 2015, and place the data in a database called *example.db*, run the following code:
 
-`./src/scrape_nbaptmov.py 03-01-2015 05-01-2015 ./Dat/example.db 1`
+`./src/scrape_nbaptmov.py 03-01-2015 05-01-2015 ./dat/example.db 1`
+
+After you have built your database, you can use the script `read_movements.py` to plot the movement data over time. The only argument required is the name of the database.
+
+`./src/read_movements.py ./dat/example.db`
